@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'net.iGap.proto'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.protobuf:protobuf-java:3.10.0'
+}
