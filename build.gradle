@@ -1,5 +1,5 @@
 plugins {
-    id 'java'
+    id 'java-library'
 }
 
 group 'net.iGap.proto'
@@ -10,5 +10,5 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.google.protobuf:protobuf-java:3.10.0'
+    api 'com.google.protobuf:protobuf-java:3.10.0'
 }
